@@ -11,7 +11,7 @@ public class Category {
 
     @Id @GeneratedValue(generator="system-uuid")
     @GenericGenerator(name="system-uuid", strategy = "")
-    private Integer id;
+    private String id;
 
     @Column(name = "name")
     private String name;
